@@ -1,0 +1,21 @@
+// Third Party Libraries
+@import "bourbon/app/assets/stylesheets/bourbon";
+@import "neat/app/assets/stylesheets/neat";
+@import "compass";
+@import "breakpoint";
+
+// Reset - Normalize is what we use.
+//@import "reset";
+
+@import "normalize-css/normalize.css";
+
+// Partial Files
+@import "breakpoints";
+@import "variables";
+@import "mixins";
+
+// Write your Styles below REPLACE THE BELOW STYLES
+body {
+  background: #fedede;
+
+}
